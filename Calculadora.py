@@ -1,5 +1,5 @@
 while 0 == 0:
-    print ("1 = adição \n2 = subtração \n3 = multiplicação \n4 = resto\n5 = divisão\n6 = poténcia\n7 = raiz\n  [escolha uma operação]")
+    print ("1 = adição \n2 = subtração \n3 = multiplicação \n4 = resto\n5 = divisão\n6 = poténcia\n7 = raiz\n8 - porcentagem\n     [escolha uma operação]")
     a = input()
     if a == "7":
         d = int(input("digite o valor da raiz  ="))
@@ -19,3 +19,7 @@ while 0 == 0:
         print(c / b)
     elif a == ("6"):
         print(c ** b)
+    elif a == ("8"):
+        cleytom = float(input("Digite o valor"))
+        nume = float(input("Digite a porcentagem"))
+        print (cleytom * nume /100)
